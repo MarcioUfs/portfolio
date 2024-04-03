@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
+  padding-top: 60px; /* Adicionando padding para evitar que o conteúdo fique oculto sob o cabeçalho */
 }
 
 a {
@@ -14,6 +15,7 @@ a {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
+  top: 0; /* Adicionando esta linha para fixar o cabeçalho no topo */
   width: 100%;
   z-index: 3;
 }
